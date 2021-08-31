@@ -1,0 +1,81 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(210, 36%, 96%);
+}
+
+html,
+body {
+  font-family: var(--ff-secondary);
+  background: var(--clr-grey-2);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* class and id */
+
+.section-center {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.counter-card {
+    margin: 4rem 0;
+    padding: 3rem 6rem;
+    background: white;
+    text-align: center;
+}
+
+.buttons button {
+    background: transparent;
+    border: 2px solid var(--clr-grey-1);
+    border-radius: 3px;
+    padding: 0.2rem;
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: var(--clr-grey-2);
+}
+
