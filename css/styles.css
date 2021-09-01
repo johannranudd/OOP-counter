@@ -37,12 +37,12 @@ h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
-  margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
 }
 
-h1 {
-    font-size: 4rem;
+.value {
+    font-size: 5rem;
+    font-weight: 400;
 }
 
 h2 {
@@ -66,7 +66,7 @@ h2 {
     text-align: center;
 }
 
-.buttons button {
+.button-container button {
     background: transparent;
     border: 2px solid var(--clr-grey-1);
     border-radius: 3px;
@@ -75,7 +75,7 @@ h2 {
     cursor: pointer;
 }
 
-.buttons button:hover {
+.button-container button:hover {
     background: var(--clr-grey-2);
 }
 
